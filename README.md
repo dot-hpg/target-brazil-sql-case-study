@@ -104,7 +104,7 @@ it runs locally. Full results are saved as CSV; the "Top 10" link is the result 
 
 ```
 .
-├── data/                  8 raw CSVs (geolocation.csv via Git LFS), schema image, data dictionary
+├── data/                  8 raw CSVs, schema image, data dictionary
 ├── sql/
 │   ├── bigquery/          one .sql file per question + 00_all_queries.sql (BigQuery dialect)
 │   └── duckdb/            the same queries translated for DuckDB
@@ -122,7 +122,6 @@ it runs locally. Full results are saved as CSV; the "Top 10" link is the result 
 ## Reproduce
 
 ```bash
-git lfs install                      # geolocation.csv is stored with Git LFS
 git clone https://github.com/dot-hpg/Projects.git
 cd Projects/target-brazil-sql-case-study
 pip install -r requirements.txt

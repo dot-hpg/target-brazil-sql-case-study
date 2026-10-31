@@ -15,7 +15,7 @@ The eight raw CSV files of the Target Brazil case study, exactly as provided (un
 | `products` | [`products.csv`](products.csv) | 32,951 | 2.3 MB |
 | `geolocation` | [`geolocation.csv`](geolocation.csv) | 1,000,163 | 61.3 MB |
 
-`geolocation.csv` is stored with Git LFS because it is larger than GitHub's 50 MB recommendation. Clone with `git lfs install` first (or download it from the GitHub web UI).
+`geolocation.csv` (61 MB) is committed as a regular file; it is under GitHub's 100 MB file limit.
 
 ## Data quality notes
 
