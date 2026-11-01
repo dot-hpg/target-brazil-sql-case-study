@@ -26,7 +26,7 @@ SHOTS, CHARTS, OUT = ROOT / "outputs" / "screenshots", ROOT / "charts", ROOT / "
 STEM = "Target_SQL_Case_Study_Guntuku_Hariprasad"
 BLUE = RGBColor(0x1C, 0x5C, 0xAB)
 INK2 = RGBColor(0x52, 0x51, 0x4E)
-REPO_URL = os.environ.get("REPO_URL", "https://github.com/dot-hpg/Projects/tree/main/target-brazil-sql-case-study")
+REPO_URL = os.environ.get("REPO_URL", "https://github.com/dot-hpg/target-brazil-sql-case-study")
 TEXT_W = 7.0  # usable width in inches
 
 

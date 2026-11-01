@@ -122,8 +122,8 @@ it runs locally. Full results are saved as CSV; the "Top 10" link is the result 
 ## Reproduce
 
 ```bash
-git clone https://github.com/dot-hpg/Projects.git
-cd Projects/target-brazil-sql-case-study
+git clone https://github.com/dot-hpg/target-brazil-sql-case-study.git
+cd target-brazil-sql-case-study
 pip install -r requirements.txt
 python run_all.py                    # ~1 minute: builds target_brazil.duckdb and every output
 ```
